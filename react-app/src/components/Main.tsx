@@ -1,12 +1,15 @@
 import Cards from "./Cards";
 import { FakeApi } from "./FakeApi";
+import '../App.css'
+import Carrousel from "./Carrousel";
 
 function Main() {
 
     const fakeApi = JSON.stringify(FakeApi());
 
     return (
-        <main>
+        <main className="custom-gradient-bg">
+            <Carrousel />
             <section className="py-5 text-center container">
                 <div className="row py-lg-5">
                     <div className="col-lg-6 col-md-8 mx-auto">
