@@ -8,7 +8,7 @@ interface CardProps {
 function Card(props: CardProps) {
     const { children } = props; // Object Destructuring
     return (
-        <div className="card" style={{ width: '350px' }}>
+        <div className="card">
             <div className="card-body">
                 {children}
             </div>

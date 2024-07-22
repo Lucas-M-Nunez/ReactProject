@@ -1,18 +1,19 @@
 import Card, { CardBody } from "./Card"
 import List from "./List"
 import CardApi from './CardApi';
-import { FakeApi } from "./FakeApi";
 
+interface CardsProps {
+    data: string
+}
 
-function Cards() {
-    console.log(FakeApi);
-    
+function Cards({ data }: CardsProps) {
 
+    const api: [] = JSON.parse(data);
     const list = [
         'primer elemento',
         'segundo elemento',
         'tercer elemento'
-      ];
+    ];
 
     return (
         <div className="album py-5 bg-body-tertiary">
@@ -33,8 +34,9 @@ function Cards() {
                         <List data={list} />
                     </Card>
 
-                    {}
-                    <CardApi />
+                    {/* Card componente de bootstrap */}
+                    <CardApi data={api} />
+
                 </div>
             </div>
         </div>

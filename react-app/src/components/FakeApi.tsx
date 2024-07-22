@@ -3,25 +3,58 @@ export function FakeApi() {
     const personajes = [
         { 
           id: 1,
-          nombre: 'Spider-man Tobey',
-          details: 'Spide',
-          img: 'public/imgs/img-1',
+          name: 'Spider-man Tobey',
+          details: 'Spiderman',
+          img: "./imgs/img-4.png",
         },
         { 
           id: 2,
-          nombre:'Spider-man Miles Morales',
-          img: 'public/imgs/img-2',
+          name:'Spider-man Miles Morales',
+          details: 'Spiderman Tierra-1610',
+          img: './imgs/img-3.png',
         },
         { 
           id: 3,
-          nombre:'Spider-man Insomniac Games',
-          img: 'public/imgs/img-3',
+          name:'Spider-man Insomniac Games',
+          details: 'Spiderman',
+          img: './imgs/img-2.png',
         },
         { 
           id: 4,
-          nombre:'Spider-man Andrew',
-          img: 'public/imgs/img-4',
-        } 
+          name:'Spider-man Andrew',
+          details: 'Spiderman version de Andrew Garfield',
+          img: './imgs/img-1.png',
+        },
+        { 
+          id: 5,
+          name:'Spider Gwen',
+          details: 'Spiderman across the spiderverse Tierra-65',
+          img: './imgs/img-gwen.png',
+        },
+        { 
+          id: 6,
+          name:'Spot',
+          details: 'Spot across the spiderverse villano',
+          img: './imgs/img-spot.png',
+        },
+        { 
+          id: 7,
+          name:'Kraven',
+          details: 'Kraven el Cazador (Sergei Krávinov) es un supervillano Ruso que aparece en los cómics estadounidenses publicados por Marvel Comics. Debutando en el número 15 de The Amazing Spider-Man (agosto de 1964) como el enemigo del Hombre Araña pero a veces como antihéroe. Desde entonces ha resistido como uno de los enemigos más formidables del lanzaredes y es parte del colectivo de adversarios que conforman la galería de villanos del Hombre Araña. Sergei también ha entrado en conflicto con otros héroes, como La Pantera Negra y Tigra. Sergei es el hermanastro y enemigo del Camaleón y uno de los miembros fundadores de Los Seis Siniestros.',
+          img: './imgs/img-kraven.png',
+        },
+        { 
+          id: 8,
+          name:'Venom',
+          details: 'Villano Marvel Spiderman 2 PS5',
+          img: './imgs/img-venom.png',
+        },
+        { 
+          id: 9,
+          name:'Lizard',
+          details: 'Dr. Curtis "Curt" Connors - Villano Marvel Spiderman 2 PS5',
+          img: './imgs/img-lizard.png',
+        }
       ];
 
       return personajes;
