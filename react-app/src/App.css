@@ -1,11 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
+
+body, h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: normal;
 }
 
+span {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.icon{
+    width: 50px;
+    transform: rotate(-25deg);
+}
+
 .custom-gradient-bg {
     background: repeating-linear-gradient(to top right, #011d32ff 0%, #332abaff 25%, #b92239ff 50%, #c93148ff 75%, #ff0026ff 100%);
+}
+
+
+.card, .card-body{
+    overflow: hidden;
+    z-index: 2;
+}
+
+.card > img{
+    transition: all .5s;
+    overflow: hidden;
+    
+}
+
+.card > img:hover {
+    transform: scale(1.1);
 }

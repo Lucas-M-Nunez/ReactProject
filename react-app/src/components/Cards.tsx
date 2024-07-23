@@ -33,6 +33,10 @@ function Cards({ data }: CardsProps) {
                         <CardBody title={"Card Body"} text={"Texto del card Body Component"} />
                         <List data={list} />
                     </Card>
+                    <Card>
+                        <CardBody title={"Card Body"} text={"Texto del card Body Component"} />
+                        <List data={list} />
+                    </Card>
 
                     {/* Card componente de bootstrap */}
                     <CardApi data={api} />

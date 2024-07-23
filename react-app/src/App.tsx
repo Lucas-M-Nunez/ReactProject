@@ -3,13 +3,12 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 
 
-
 function App() {
 
   return (
     // jsx -> React.createElement
     <Fragment>
-      <Header icon={'src/assets/react.svg'} title="Fast Project React + TypeScript + Bootstrap" />
+      <Header icon={'/public/imgs/spider-man-icon.jpg'} title="Spidy-Friend" />
       <Main />
     </Fragment>
   )
