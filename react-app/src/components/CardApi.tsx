@@ -15,12 +15,12 @@ function CardApi({ data }: CardApiProps) {
         <>
             {data.map((e) => (
                 <>
-                    <div className="col">
+                    <div key={e.id} className="col">
                         <div className="card shadow-sm">
-                            <img key={e.id} src={e.img} alt="Image-spider" className="bd-placeholder-img card-img-top" width="100%" height="225" />
+                            <img src={e.img} alt="Image-spider" className="bd-placeholder-img card-img-top" width="100%" height="225" />
                             <div className="card-body">
-                                <h1 key={e.name} className="card-title">{e.name}</h1>
-                                <p key={e.details} className="card-text">{e.details}</p>
+                                <h1 className="card-title">{e.name}</h1>
+                                <p className="card-text">{e.details}</p>
                                 <div className="d-flex justify-content-between align-items-center">
                                     <div className="btn-group">
                                         <a href={e.link} target="_blank">

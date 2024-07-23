@@ -8,7 +8,7 @@ function App() {
   return (
     // jsx -> React.createElement
     <Fragment>
-      <Header icon={'/public/imgs/spider-man-icon.jpg'} title="Spidy-Friend" />
+      <Header icon={'/imgs/spider-man-icon.jpg'} title="Spidy-Friends" />
       <Main />
     </Fragment>
   )
