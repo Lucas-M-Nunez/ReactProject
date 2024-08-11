@@ -9,11 +9,6 @@ interface CardsProps {
 function Cards({ data }: CardsProps) {
 
     const api: [] = JSON.parse(data);
-    // const list = [
-    //     'primer elemento',
-    //     'segundo elemento',
-    //     'tercer elemento'
-    // ];
 
     return (
         <div className="album py-5">
@@ -40,7 +35,6 @@ function Cards({ data }: CardsProps) {
 
                     {/* Card componente de bootstrap */}
                     <CardApi data={api} />
-
                 </div>
             </div>
         </div>

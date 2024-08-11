@@ -2,6 +2,7 @@ import Cards from "./Cards";
 import { FakeApi } from "./FakeApi";
 import "../App.css";
 import Carrousel from "./Carrousel";
+import ButtonMUI from "./ButtonMUI";
 
 function Main() {
   const fakeApi = JSON.stringify(FakeApi());
@@ -29,15 +30,8 @@ function Main() {
           </p>
           <span className="lead text-light">¡Gracias por su visita!</span>
           <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5 mt-5">
-            <button type="button" className="btn btn-outline-secondary btn-lg px-4">
-              About me
-            </button>
-            <button
-              type="button"
-              className="btn btn-outline-secondary btn-lg px-4"
-            >
-              Repository
-            </button>
+            <ButtonMUI title="About me" />
+            <ButtonMUI  title="Repository" />
           </div>
         </div>
       </section>
